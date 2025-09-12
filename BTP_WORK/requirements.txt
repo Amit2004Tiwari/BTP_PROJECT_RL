@@ -1,0 +1,198 @@
+# Deep Reinforcement Learning Classifier for Book Review Content Detection
+# CORRECTED Requirements for Python 3.11.13 - TESTED AND VERIFIED
+# Removes problematic packages and uses only compatible versions
+
+# ============================================================================
+# CORE DEEP LEARNING & RL FRAMEWORKS (Python 3.11.13 COMPATIBLE)
+# ============================================================================
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+gymnasium==0.28.1
+stable-baselines3==2.0.0
+sb3-contrib==2.0.0
+
+# ============================================================================
+# TRANSFORMER & NLP LIBRARIES (VERIFIED PYTHON 3.11.13 COMPATIBLE)
+# ============================================================================
+transformers==4.30.2
+sentence-transformers==2.2.2
+tokenizers==0.13.3
+datasets==2.13.0
+huggingface-hub==0.15.1
+
+# Advanced NLP processing (Python 3.11.13 tested)
+spacy==3.6.1
+nltk==3.8.1
+textblob==0.17.1
+gensim==4.3.1
+
+# ============================================================================
+# SCIENTIFIC COMPUTING & DATA PROCESSING (Python 3.11.13 STABLE)
+# ============================================================================
+numpy==1.25.2
+pandas==2.0.3
+scipy==1.11.1
+scikit-learn==1.3.0
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+
+# ============================================================================
+# PERFORMANCE & OPTIMIZATION (CORRECTED VERSIONS)
+# ============================================================================
+# Fast similarity computations - CORRECTED versions for Python 3.11
+faiss-cpu==1.7.4
+hnswlib==0.7.0
+
+# Accelerated computing - Compatible versions
+accelerate==0.20.3
+
+# Memory optimization
+psutil==5.9.5
+memory-profiler==0.60.0
+
+# ============================================================================
+# PROGRESS TRACKING & MONITORING
+# ============================================================================
+tqdm==4.65.0
+rich==13.4.2
+tensorboard==2.13.0
+tensorboardX==2.6.2
+
+# ============================================================================
+# DATA HANDLING & UTILITIES (Python 3.11.13 COMPATIBLE)
+# ============================================================================
+# Configuration management
+pyyaml==6.0.1
+python-dotenv==1.0.0
+
+# Data validation - Compatible versions
+pydantic==1.10.12
+marshmallow==3.20.1
+
+# ============================================================================
+# SIMILARITY & DISTANCE METRICS (CORRECTED - NO sentence-similarity)
+# ============================================================================
+# REMOVED: sentence-similarity==1.2.2 (doesn't exist, only 1.0.0 available)
+# Using alternatives that actually work:
+textdistance==4.5.0
+rapidfuzz==3.1.1
+
+# Embedding utilities - Compatible versions
+umap-learn==0.5.3
+
+# ============================================================================
+# EVALUATION & METRICS
+# ============================================================================
+# Statistical analysis
+statsmodels==0.14.0
+
+# ============================================================================
+# DEVELOPMENT & DEBUGGING (Python 3.11.13 COMPATIBLE)
+# ============================================================================
+# Code quality - Compatible versions
+black==23.7.0
+flake8==6.0.0
+pylint==2.17.4
+mypy==1.4.1
+
+# Jupyter support
+jupyter==1.0.0
+ipywidgets==8.0.7
+notebook==6.5.4
+
+# Debugging - VERIFIED compatible
+icecream==2.1.3
+
+# ============================================================================
+# SYSTEM & ENVIRONMENT
+# ============================================================================
+# System monitoring
+psutil==5.9.5
+
+# Environment management
+python-decouple==3.8
+
+# ============================================================================
+# TEXT PREPROCESSING & CLEANING
+# ============================================================================
+# Advanced text cleaning - Compatible versions
+ftfy==6.1.1
+unidecode==1.3.6
+emoji==2.2.0
+
+# Regular expressions
+regex==2023.6.3
+
+# ============================================================================
+# PARALLEL PROCESSING & ACCELERATION
+# ============================================================================
+# Multiprocessing
+multiprocess==0.70.14
+
+# Caching
+diskcache==5.6.1
+
+# ============================================================================
+# SPECIALIZED RL UTILITIES
+# ============================================================================
+# Environment wrappers - Compatible version
+ale-py==0.8.1
+
+# ============================================================================
+# AUDIO/VISUAL PROCESSING
+# ============================================================================
+pillow==10.0.0
+opencv-python==4.8.0.76
+imageio==2.31.1
+
+# ============================================================================
+# DATABASE & STORAGE
+# ============================================================================
+sqlalchemy==2.0.19
+
+# ============================================================================
+# TESTING & VALIDATION
+# ============================================================================
+pytest==7.4.0
+pytest-cov==4.1.0
+hypothesis==6.82.0
+
+# ============================================================================
+# ADDITIONAL ACCURACY BOOSTERS (COMPATIBLE VERSIONS)
+# ============================================================================
+# Ensemble methods - Python 3.11 compatible versions
+xgboost==1.7.6
+lightgbm==4.0.0
+catboost==1.2.0
+
+# Feature selection
+shap==0.42.1
+
+# Cross-validation
+imbalanced-learn==0.11.0
+
+# ============================================================================
+# NETWORK & API UTILITIES
+# ============================================================================
+requests==2.31.0
+urllib3==2.0.4
+httpx==0.24.1
+
+# ============================================================================
+# LOGGING & ERROR TRACKING
+# ============================================================================
+loguru==0.7.0
+
+# ============================================================================
+# TIME & DATE UTILITIES
+# ============================================================================
+python-dateutil==2.8.2
+pytz==2023.3
+
+# ============================================================================
+# STRING & TEXT UTILITIES (CORRECTED VERSIONS)
+# ============================================================================
+fuzzywuzzy==0.18.0
+python-levenshtein==0.21.1
